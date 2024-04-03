@@ -27,6 +27,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hola/', views.holamundo),
     path('api/', views.holaapi),
+    path('publicaciones/', views.publicaciones),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
