@@ -5,3 +5,4 @@ python-dotenv==1.0.1
 sqlparse==0.4.4
 tzdata==2023.4
 pillow==9.0.1
+django-cors-headers==4.3.1
