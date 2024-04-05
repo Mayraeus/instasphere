@@ -19,7 +19,7 @@ class Publicacion(models.Model):
     fecha = models.DateTimeField()
     id_usuario = models.IntegerField(null =False)
     tipo = models.CharField(max_length =10, choices =tipos)
-    post = models.ImageField(upload_to = '/tmp/', null=True)
+    post = models.ImageField(upload_to = 'upload/', null=True)
 
 
 class Comentario(models.Model):
